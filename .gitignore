@@ -1,0 +1,36 @@
+# Môi trường ảo Python
+.venv/
+venv/
+env/
+ENV/
+
+# Cache & file tạm Python / Jupyter
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+
+# File hệ thống & cấu hình IDE
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+
+# Dữ liệu thô, dữ liệu đã xử lý, database cục bộ & mô hình đã huấn luyện
+data/raw/*.csv
+data/raw/*.zip
+data/processed/*.parquet
+data/processed/*.csv
+data/warehouse/*.duckdb
+data/warehouse/*.duckdb.wal
+models/*.pkl
+models/*.joblib
+
+# Luôn giữ lại file .gitkeep để theo dõi cấu trúc thư mục rỗng
+!**/.gitkeep
+
+# Cẩm nang học tập cá nhân (Local Only — tuyệt đối không đẩy lên GitHub)
+PROJECT_HANDBOOK.md
