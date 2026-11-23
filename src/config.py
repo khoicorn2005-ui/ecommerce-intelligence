@@ -25,6 +25,7 @@ REQUIRED_DIRS: tuple[Path, ...] = (
     NOTEBOOKS_DIR,
     MODELS_DIR,
     DASHBOARD_DIR,
+    REPORTS_DIR,
     FIGURES_DIR,
 )
 
